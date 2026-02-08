@@ -4,6 +4,7 @@ This repository contains two microservices deployed to Kubernetes:
 - **Python Flask App** - Simple web app with health checks
 - **Go Web App** - Lightweight web service with detailed health endpoints
 
+
 ## Repository Structure
 ```
 devops-k8s-demo/
@@ -59,6 +60,40 @@ See individual READMEs:
 - Resource management
 - Scaling applications
 - Rolling updates
+
+# Polyglot Hybrid Cloud Platform 🚀
+
+A professional-grade DevOps repository demonstrating a hybrid-cloud ecosystem. This project showcases how to manage multiple applications (Go, Python) across varied environments: Local (kind), On-Prem (Ansible), and Public Cloud (AWS/Terraform).
+
+
+
+## 🏗️ Architecture Overview
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Apps** | Go, Python, Docker | Polyglot microservices |
+| **Orchestration** | Kubernetes (EKS / kind) | Container scheduling |
+| **Infrastructure** | Terraform | AWS Provisioning (VPC, EC2) |
+| **Config Mgmt** | Ansible | On-Prem & Cloud Server Setup |
+| **Monitoring** | Prometheus & Grafana | Observability & Metrics |
+
+---
+
+## 📂 Repository Structure
+
+- `apps/`: Source code and K8s manifests for microservices.
+- `infra/`: The Infrastructure-as-Code (IaC) hub (AWS, On-Prem, Local).
+- `platform/`: Shared services for monitoring and logging.
+- `scripts/`: Automation scripts for local setup and cleanup.
+
+---
+
+## 🗺️ Roadmap
+- [x] Initial Repository Structure & App Dockerization
+- [ ] Local Multi-node Cluster (kind) setup
+- [ ] AWS Infrastructure provisioning with Terraform
+- [ ] Automated Server configuration with Ansible
+- [ ] Full CI/CD implementation (Jenkins/GitHub Actions)
 
 ## Author
 
